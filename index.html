@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="es">
+  <head>
+    <!-- Site Title-->
+    <title>Luz Headlights X - Restauración de Faros</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:400,500,700%7CNoto+Sans:400,700">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+      .btn-lg {
+        padding: 15px 30px;
+        font-size: 18px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+      }
+      .btn-lg:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      }
+      .price-box-1 {
+        transition: all 0.3s ease;
+        border-radius: 15px;
+      }
+      .price-box-1:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      }
+      .thumbnail-classic {
+        transition: all 0.3s ease;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      .thumbnail-classic:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      }
+      .swiper-slide img {
+        border-radius: 8px;
+      }
+      .contact-header {
+        background: linear-gradient(45deg, #2196F3, #1976D2);
+        padding: 25px;
+        border-radius: 10px;
+        color: white;
+        margin-bottom: 20px;
+      }
+      .payment-info ul li {
+        padding: 8px 0;
+        font-size: 16px;
+      }
+    </style>
+    <style>
+      /* Estilos Responsive */
+      @media (max-width: 768px) {
+        .swiper-slide {
+          height: 60vh !important;
+        }
+        .section-100-vh {
+          min-height: auto !important;
+          padding: 40px 0;
+        }
+        h1 {
+          font-size: 2rem !important;
+        }
+        .h6 {
+          font-size: 1rem !important;
+        }
+      }
+      
+      @media (min-width: 769px) {
+        .swiper-slide {
+          height: 100vh !important;
+        }
+        .section-100-vh {
+          min-height: 100vh !important;
+        }
+      }
+      
+      /* Estilos para las cajas de servicios */
+      .service-box, .before-after-box {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+      }
+      
+      .service-box:hover, .before-after-box:hover {
+        transform: translateY(-5px);
+      }
+      
+      .service-box img, .before-after-box img {
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 15px;
+      }
+      
+      /* Estilos para la caja de precios */
+      .price-box-1 {
+        background: linear-gradient(145deg, #2196f3, #1976d2);
+        color: white;
+        border-radius: 8px;
+        padding: 30px;
+      }
+      
+      .price-box-1-value {
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 0;
+      }
+      
+      .price-box-1 .btn-primary {
+        background: white;
+        color: #1976d2;
+        border: none;
+        margin-top: 20px;
+        padding: 12px 30px;
+        font-weight: bold;
+      }
+      
+      .price-box-1 .list-md {
+        padding: 0;
+        list-style: none;
+      }
+      
+      .price-box-1 .list-md li {
+        margin: 10px 0;
+        padding-left: 25px;
+        position: relative;
+      }
+      
+      .price-box-1 .list-md li:before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: white;
+      }.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="page-loader">
+      <div>
+        <div class="page-loader-body">
+          <div class="preloader-container">
+            <svg class="item1" x="0px" y="0px" width="60px" height="60px" viewbox="0 0 60 60">
+              <path d="M6.541,35.989c0.524,1.795,1.25,3.526,2.169,5.15l-2.618,3.302c-0.855,1.079-0.759,2.618,0.203,3.59l4.509,4.509 c0.972,0.972,2.511,1.058,3.59,0.203l3.28-2.597c1.688,0.972,3.484,1.731,5.353,2.265l0.492,4.221 c0.16,1.368,1.314,2.394,2.682,2.394h6.379c1.368,0,2.522-1.026,2.682-2.394l0.47-4.071c2.009-0.524,3.932-1.304,5.738-2.319 l3.174,2.511c1.079,0.855,2.618,0.759,3.59-0.203l4.509-4.509c0.972-0.972,1.058-2.511,0.203-3.59l-2.468-3.131 c1.026-1.774,1.827-3.665,2.362-5.642l3.804-0.438c1.368-0.16,2.394-1.314,2.394-2.682V26.18c0-1.368-1.026-2.522-2.394-2.682 l-3.751-0.438c-0.513-1.955-1.282-3.825-2.265-5.578l2.308-2.917c0.855-1.079,0.759-2.618-0.203-3.59l-4.499-4.499 c-0.972-0.972-2.511-1.058-3.59-0.203l-2.832,2.244c-1.838-1.079-3.804-1.902-5.866-2.458L35.52,2.394 C35.36,1.026,34.206,0,32.838,0h-6.379c-1.368,0-2.522,1.026-2.682,2.394l-0.427,3.665c-2.116,0.566-4.135,1.421-6.016,2.543 l-2.939-2.329c-1.079-0.855-2.618-0.759-3.59,0.203l-4.509,4.509c-0.972,0.972-1.058,2.511-0.203,3.59l2.458,3.11 c-0.983,1.774-1.731,3.665-2.223,5.631l-3.932,0.449c-1.368,0.16-2.394,1.314-2.394,2.682v6.379c0,1.368,1.026,2.522,2.394,2.682 L6.541,35.989z M29.653,18.732c5.813,0,10.547,4.734,10.547,10.547s-4.734,10.547-10.547,10.547 c-5.813,0-10.547-4.734-10.547-10.547S23.84,18.732,29.653,18.732z"></path>
+            </svg>
+            <svg class="item2" x="0px" y="0px" width="48px" height="48px" viewbox="0 0 48 48">
+              <path d="M41.095,7.317l-3.366-2.842c-1.036-0.876-2.565-0.833-3.548,0.096l-1.859,1.742c-1.571-0.759-3.238-1.293-4.958-1.603 L26.84,2.146c-0.267-1.325-1.496-2.244-2.843-2.137l-4.392,0.374C18.26,0.5,17.202,1.601,17.159,2.958l-0.085,2.607 c-1.688,0.609-3.281,1.443-4.734,2.49L10.117,6.58C8.985,5.832,7.478,6.046,6.602,7.082L3.759,10.47 c-0.876,1.037-0.834,2.565,0.096,3.548L5.8,16.09c-0.673,1.517-1.154,3.11-1.432,4.744L1.59,21.401 c-1.325,0.267-2.244,1.496-2.137,2.842l0.374,4.392c0.118,1.346,1.218,2.404,2.575,2.447l3.003,0.096 c0.545,1.432,1.261,2.789,2.126,4.061l-1.678,2.532c-0.748,1.133-0.534,2.639,0.502,3.516l3.366,2.842 c1.037,0.876,2.565,0.833,3.548-0.096l2.201-2.062c1.443,0.673,2.96,1.175,4.52,1.475l0.609,3.013 c0.267,1.325,1.496,2.244,2.842,2.137l4.392-0.374c1.346-0.118,2.404-1.218,2.447-2.575l0.096-2.949 c1.603-0.566,3.12-1.336,4.52-2.287l2.426,1.603c1.133,0.748,2.639,0.534,3.516-0.502l2.842-3.366 c0.876-1.037,0.833-2.565-0.096-3.548l-1.956-2.073c0.716-1.517,1.24-3.12,1.539-4.766l2.671-0.545 c1.325-0.267,2.244-1.496,2.137-2.842l-0.374-4.392c-0.118-1.346-1.218-2.404-2.575-2.447l-2.682-0.085 c-0.556-1.56-1.304-3.035-2.233-4.402l1.464-2.201C42.345,9.711,42.131,8.194,41.095,7.317z M24.543,32.706 c-4.744,0.406-8.933-3.131-9.329-7.875c-0.406-4.744,3.131-8.933,7.875-9.329c4.744-0.406,8.933,3.131,9.329,7.875 C32.824,28.122,29.287,32.311,24.543,32.706z"></path>
+            </svg>
+            <svg class="item3" x="0px" y="0px" width="40px" height="40px" viewbox="0 0 40 40">
+              <path d="M2.427,15.569c-1.346,0.139-2.383,1.271-2.394,2.629l-0.032,2.703c-0.021,1.357,0.983,2.511,2.329,2.682l1.988,0.256 c0.331,1.208,0.801,2.362,1.41,3.452l-1.282,1.581c-0.855,1.058-0.791,2.575,0.16,3.548l1.891,1.934 c0.951,0.972,2.468,1.079,3.548,0.246l1.592-1.229c1.122,0.663,2.308,1.186,3.548,1.549l0.214,2.052 c0.139,1.346,1.272,2.383,2.629,2.394l2.704,0.032c1.357,0.021,2.511-0.983,2.682-2.329l0.246-1.945 c1.346-0.331,2.629-0.833,3.847-1.496l1.496,1.207c1.058,0.855,2.575,0.791,3.548-0.16l1.934-1.891 c0.972-0.951,1.079-2.468,0.246-3.548l-1.144-1.485c0.705-1.175,1.25-2.426,1.624-3.74l1.774-0.182 c1.346-0.139,2.383-1.272,2.394-2.629l0.032-2.704c0.021-1.357-0.983-2.511-2.329-2.682l-1.731-0.224 c-0.331-1.304-0.823-2.565-1.464-3.74l1.079-1.325c0.855-1.058,0.791-2.575-0.16-3.548l-1.891-1.934 c-0.951-0.972-2.469-1.079-3.548-0.246l-1.293,0.994c-1.218-0.737-2.522-1.304-3.889-1.688l-0.171-1.678 c-0.139-1.346-1.271-2.383-2.629-2.394L18.68,0c-1.357-0.021-2.511,0.983-2.682,2.329l-0.214,1.667 c-1.41,0.363-2.767,0.919-4.028,1.645l-1.336-1.09c-1.058-0.855-2.575-0.791-3.548,0.16L4.927,6.615 c-0.972,0.951-1.079,2.468-0.246,3.548l1.143,1.475c-0.663,1.175-1.186,2.426-1.528,3.74L2.427,15.569z M19.877,12.513 c3.879,0.043,6.988,3.238,6.946,7.117c-0.043,3.879-3.238,6.988-7.117,6.946c-3.879-0.043-6.988-3.238-6.946-7.117 C12.803,15.58,15.998,12.471,19.877,12.513z"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page text-center text-md-left">
+      <!-- Page Header-->
+      <header class="page-head">
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-secondary" data-stick-up-clone="true" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-lg-stick-up-offset="252px">
+            <div class="rd-navbar-inner"><span class="small">¡Promoción $30! - Restauración Profesional de Faros – Servicio Móvil en Brooklyn y todo NY</span>
+              <ul class="list-inline list-inline-lg offset-top-0">
+                <li><a class="ioon icon-sm icon-silver-chalice fa-whatsapp" href="https://api.whatsapp.com/send?phone=13473403600" target="_blank"></a></li>
+                <li><a class="ioon icon-sm icon-silver-chalice fa-tiktok" href="https://www.tiktok.com/@luzheadlightsx" target="_blank"></a></li>
+              </ul>
+            </div>
+            <div class="rd-navbar-inner">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <button class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></button>
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="brand-device" src="images/brand-default-229x58.png" width="229" height="58" alt="Luz Headlights X"><img class="brand-mobile" src="images/brand-white-229x58.png" width="229" height="58" alt="Luz Headlights X"></a></div>
+              </div>
+              <div class="rd-navbar-collapse animated">
+                <div class="rd-navbar-collapse-items">
+                  <ul class="list-inline">
+                    <li class="me-4">
+                      <div class="d-flex align-items-center gap-3">
+                        <a class="btn btn-primary btn-sm" href="#">HOME SERVICE FREE</a>
+                        <span class="h5 text-primary mb-0">ONLY $30 PROMOCIÓN</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="unit flex-row unit-spacing-xs">
+                        <div class="unit-left"><span class="icon icon-primary fa-whatsapp"></span></div>
+                        <div class="unit-body">
+                          <div class="title"><span class="small">CONTACTO & CITAS</span></div>
+                          <h6><a href="https://api.whatsapp.com/send?phone=13473403600">+1 (347) 340-3600</a></h6>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="unit flex-row unit-spacing-xs">
+                        <div class="unit-left"><span class="icon icon-primary fa-map-marker"></span></div>
+                        <div class="unit-body">
+                          <div class="title"><span class="small">Ubicación</span></div>
+                          <h6><a href="#">Brooklyn y todo NY</a></h6>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="swiper-container swiper-slider swiper-secondary" data-autoplay="3500" data-height="100vh" data-min-height="300px">
+        <div class="swiper-wrapper text-center">
+          <div class="swiper-slide" data-slide-bg="images/gallery/trabajo_16.png">
+            <div class="swiper-slide-caption">
+              <div class="container">
+                <div class="row section-100-vh align-items-sm-center justify-content-sm-center">
+                  <div class="col-xxl-8 col-md-9" data-caption-animate="fadeInDown" data-caption-delay="200">
+                    <h1 class="text-white">Transformación Total de Faros</h1>
+                    <p class="h6 offset-top-30">Restauración profesional de faros opacos a cristalinos. ¡Mira la diferencia!</p>
+                    <div class="group">
+                      <a class="btn btn-primary btn-form" href="https://api.whatsapp.com/send?phone=13473403600">Contactar por WhatsApp</a>
+                      <a class="btn btn-dark btn-form" href="#gallery">Ver Galería</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-slide-bg="images/gallery/trabajo_20.jpg">
+            <div class="swiper-slide-caption">
+              <div class="container">
+                <div class="row section-100-vh align-items-sm-center justify-content-sm-center">
+                  <div class="col-xxl-8 col-md-9" data-caption-animate="fadeInDown" data-caption-delay="200">
+                    <h1 class="text-white">Servicio Profesional Garantizado</h1>
+                    <p class="h6 offset-top-30">Mejora la visibilidad y apariencia de tu vehículo con nuestro servicio especializado.</p>
+                    <div class="group">
+                      <a class="btn btn-primary btn-form" href="https://api.whatsapp.com/send?phone=13473403600">Agendar Servicio</a>
+                      <a class="btn btn-dark btn-form" href="#gallery">Ver Trabajos</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-slide-bg="images/gallery/trabajo_34.jpg">
+            <div class="swiper-slide-caption">
+              <div class="container">
+                <div class="row section-100-vh align-items-sm-center justify-content-sm-center">
+                  <div class="col-xxl-8 col-md-9" data-caption-animate="fadeInDown" data-caption-delay="200">
+                    <h1 class="text-white">Resultados Impresionantes</h1>
+                    <p class="h6 offset-top-30">Transformamos tus faros opacos en cristalinos. ¡Servicio a domicilio!</p>
+                    <div class="group">
+                      <a class="btn btn-primary btn-form" href="tel:347-340-3600">Llamar Ahora</a>
+                      <a class="btn btn-dark btn-form" href="#gallery">Ver Más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"><span>Anterior</span></div>
+        <div class="swiper-button-next"><span>Siguiente</span></div>
+      </div>
+
+      <section class="section-75 section-md-120" id="gallery">
+        <div class="container">
+          <h2><span class="small">Antes y Después</span>Transformaciones Impresionantes</h2>
+          <div class="row row-30">
+            <div class="col-md-6">
+              <img class="img-responsive" src="images/gallery/IMG_0140.jpg" alt="Transformación 1"/>
+              <h6 class="mt-3">Restauración Profesional</h6>
+              <p>Devolvemos la claridad y brillo original a tus faros.</p>
+            </div>
+            <div class="col-md-6">
+              <img class="img-responsive" src="images/gallery/IMG_0141.jpg" alt="Transformación 2"/>
+              <h6 class="mt-3">Resultados Garantizados</h6>
+              <p>Mejora notable en la apariencia y funcionalidad.</p>
+            </div>
+          </div>
+          <div class="row row-30 mt-4">
+            <div class="col-md-6">
+              <img class="img-responsive" src="images/gallery/trabajo_77.png" alt="Servicio Móvil"/>
+              <h6 class="mt-3">Servicio Móvil</h6>
+              <p>Nos desplazamos a tu ubicación para tu comodidad.</p>
+            </div>
+            <div class="col-md-6">
+              <img class="img-responsive" src="images/gallery/trabajo_87.png" alt="Servicio Premium"/>
+              <h6 class="mt-3">Servicio Premium</h6>
+              <p>Atención al detalle en cada restauración.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-75 section-md-120 bg-light">
+        <div class="container">
+          <h2><span class="small">Nuestros Servicios</span>Soluciones Profesionales</h2>
+          <div class="row row-30 align-items-stretch">
+            <div class="col-lg-4 col-md-6">
+              <div class="price-box-1 h-100">
+                <div class="price-box-1-caption">
+                  <div class="row row-20 justify-content-center mb-4">
+                    <div class="col-6">
+                      <img src="images/gallery/trabajo_81.jpg" alt="Faro Restaurado" class="img-fluid rounded shadow-sm" style="height: 140px; object-fit: cover;"/>
+                    </div>
+                    <div class="col-6">
+                      <img src="images/gallery/trabajo_82.jpg" alt="Proceso de Restauración" class="img-fluid rounded shadow-sm" style="height: 140px; object-fit: cover;"/>
+                    </div>
+                  </div>
+                  <div class="price-box-1-price">
+                    <p class="price-box-1-value"><small>$</small>30</p>
+                  </div>
+                  <h5 class="price-box-1-title">Precio Promocional</h5>
+
+                </div>
+                <div class="price-box-1-body">
+                  <ul class="list-md">
+                    <li>Servicio a Domicilio</li>
+                    <li>Restauración Profesional</li>
+                    <li>Resultados Garantizados</li>
+                    <li>Acabado Cristalino</li>
+                  </ul>
+                  <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=13473403600">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="service-box h-100">
+                <img class="img-responsive" src="images/gallery/IMG_0141.jpg" alt="Restauración Total"/>
+                <h6 class="mt-3">Restauración Total</h6>
+                <p>Recupera la claridad y seguridad de tus faros.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="service-box h-100">
+                <img class="img-responsive" src="images/gallery/trabajo_87.png" alt="Acabado Profesional"/>
+                <h6 class="mt-3">Acabado Profesional</h6>
+                <p>Garantizamos resultados excepcionales.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        </div>
+      </section>
+
+      <section class="section-75 section-md-120">
+        <div class="container">
+          <h2><span class="small">Galería</span>Más Transformaciones</h2>
+          <div class="row row-30">
+            <div class="col-md-6">
+              <img class="img-responsive" src="images/IMG_0136.HEIC" alt="Galería 1"/>
+              <h6 class="mt-3">Servicio Premium</h6>
+              <p>Calidad profesional garantizada.</p>
+            </div>
+            <div class="col-md-6">
+              <img class="img-responsive" src="images/IMG_0137.HEIC" alt="Galería 2"/>
+              <h6 class="mt-3">Experiencia Comprobada</h6>
+              <p>Años de experiencia en restauración.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-75 section-md-120 bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+              <div class="pricing-box bg-default">
+                <h3 class="text-primary">¡Contáctanos Hoy!</h3>
+                <img src="images/qr_pulidofarosny.png" alt="Código QR" class="img-responsive" style="max-width: 200px; margin: 20px auto;">
+                <p class="h4">Servicio a Domicilio en NY</p>
+                <p class="h3"><a href="tel:347-340-3600" class="text-primary">347-340-3600</a></p>
+                <p class="h5">Precio promocional: $30</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-75 section-md-120">
+        <div class="container">
+          <h2><span class="small">Antes y Después</span>Resultados Reales</h2>
+          <div class="row row-30 align-items-stretch">
+            <div class="col-lg-3 col-md-6">
+              <div class="before-after-box h-100">
+                <img class="img-responsive" src="images/gallery/IMG_0133.jpg" alt="Transformación Total"/>
+                <h6 class="mt-3">Transformación Total</h6>
+                <p>Recuperación completa de la transparencia y brillo del faro.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="before-after-box h-100">
+                <img class="img-responsive" src="images/gallery/IMG_0136.jpg" alt="Claridad Restaurada"/>
+                <h6 class="mt-3">Claridad Restaurada</h6>
+                <p>Eliminación de la oxidación y amarillamiento del faro.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="before-after-box h-100">
+                <img class="img-responsive" src="images/gallery/IMG_0137.jpg" alt="Resultado Profesional"/>
+                <h6 class="mt-3">Resultado Profesional</h6>
+                <p>Acabado cristalino que mejora la visibilidad nocturna.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="before-after-box h-100">
+                <img class="img-responsive" src="images/gallery/IMG_0140.jpg" alt="Faros Traseros"/>
+                <h6 class="mt-3">Faros Traseros</h6>
+                <p>También restauramos luces traseras con la misma calidad.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Más Transformaciones -->
+      <section class="section-75 section-md-120 bg-white">
+        <div class="container">
+          <h2><span class="small">Nuestro Trabajo</span>Más Transformaciones</h2>
+          <div class="row row-30 justify-content-center">
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap">
+                  <img src="images/gallery/IMG_0141.jpg" alt="Servicio Premium" width="370" height="370"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Servicio Premium</h5>
+                  <p>Calidad profesional garantizada en cada trabajo. Utilizamos productos y técnicas de última generación.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap">
+                  <img src="images/gallery/trabajo_73.jpg" alt="Experiencia Comprobada" width="370" height="370"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Experiencia Comprobada</h5>
+                  <p>Años de experiencia restaurando faros de todo tipo de vehículos con resultados excepcionales.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap">
+                  <img src="images/gallery/trabajo_34.jpg" alt="Servicio a Domicilio" width="370" height="370"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Servicio a Domicilio</h5>
+                  <p>Nos desplazamos a tu ubicación en todo NY para tu mayor comodidad.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Información de Contacto y Pagos -->
+      <section class="section-75 section-md-120 bg-white">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="price-box-1">
+                <div class="price-box-1-caption">
+                  <div class="contact-header">
+                    <h3 class="h4 text-primary">📞 Llama o envía un mensaje:</h3>
+                    <p class="h3 mb-3">347-340-3600</p>
+                  </div>
+                </div>
+                <div class="price-box-1-body">
+                  <h4 class="h5 mb-3">Preguntar Por Jim JG</h4>
+                  <p class="h5 mb-2">Precio De promo 30$</p>
+                  <div class="payment-info mt-4">
+                    <p class="h6 mb-2">Aceptamos pagos en:</p>
+                    <ul class="list-unstyled">
+                      <li class="mb-2">💵 Efectivo</li>
+                      <li>💰 Crypto:</li>
+                      <li class="small text-primary">USDT - USDC - RLUSD - XRP - XLM - BTC Y OTROS</li>
+                    </ul>
+                  </div>
+                  <div class="mt-4 d-flex flex-column gap-3">
+                    <a class="btn btn-primary btn-lg" href="https://api.whatsapp.com/send?phone=13473403600">
+                      <i class="fab fa-whatsapp me-2"></i>Contactar por WhatsApp
+                    </a>
+                    <a class="btn btn-dark btn-lg" href="https://www.tiktok.com/@luzheadlightsx" target="_blank">
+                      <i class="fab fa-tiktok me-2"></i>Síguenos en TikTok
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Galería de Trabajos -->
+      <section class="section-75 section-md-120 bg-light">
+        <div class="container">
+          <h2><span class="small">Galería de Trabajos</span>Nuestros Resultados</h2>
+          <div class="row row-30 justify-content-center">
+            <!-- Imagen 1 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap"><img src="images/gallery/trabajo1.jpg" alt="Restauración de Faros" width="370" height="370"/></div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Restauración Profesional</h5>
+                  <p>Transformación completa de faros opacos a cristalinos</p>
+                </div>
+              </div>
+            </div>
+            <!-- Imagen 2 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap"><img src="images/gallery/trabajo_16.png" alt="Detalle de Faro" width="370" height="370"/></div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Proceso de Pulido</h5>
+                  <p>Técnicas profesionales para un acabado perfecto</p>
+                </div>
+              </div>
+            </div>
+            <!-- Imagen 3 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap"><img src="images/gallery/trabajo_20.jpg" alt="Proceso de Restauración" width="370" height="370"/></div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Antes y Después</h5>
+                  <p>Resultados visibles desde el primer momento</p>
+                </div>
+              </div>
+            </div>
+            <!-- Imagen 4 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap"><img src="images/gallery/trabajo_30.png" alt="Detalle del Proceso" width="370" height="370"/></div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Detalle del Proceso</h5>
+                  <p>Cuidado en cada paso de la restauración</p>
+                </div>
+              </div>
+            </div>
+            <!-- Imagen 5 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap"><img src="images/gallery/trabajo_34.jpg" alt="Acabado Profesional" width="370" height="370"/></div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Acabado Profesional</h5>
+                  <p>Brillo y claridad excepcional</p>
+                </div>
+              </div>
+            </div>
+            <!-- Imagen 6 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap"><img src="images/gallery/trabajo_59.jpg" alt="Transformación Total" width="370" height="370"/></div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Transformación Total</h5>
+                  <p>De opacos a cristalinos en un solo servicio</p>
+                </div>
+              </div>
+            </div>
+            <!-- Imagen 7 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap"><img src="images/gallery/trabajo_63.jpg" alt="Servicio Especializado" width="370" height="370"/></div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Servicio Especializado</h5>
+                  <p>Atención personalizada para cada vehículo</p>
+                </div>
+              </div>
+            </div>
+            <!-- Imagen 8 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap"><img src="images/gallery/trabajo_73.jpg" alt="Calidad Garantizada" width="370" height="370"/></div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Calidad Garantizada</h5>
+                  <p>Satisfacción asegurada en cada servicio</p>
+                </div>
+              </div>
+            </div>
+            <!-- Imagen 9 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap"><img src="images/gallery/trabajo_77.png" alt="Servicio Móvil" width="370" height="370"/></div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Servicio Móvil</h5>
+                  <p>Nos desplazamos a tu ubicación</p>
+                </div>
+              </div>
+            </div>
+            <!-- Imagen 10 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="thumbnail-classic">
+                <div class="thumbnail-classic-img-wrap"><img src="images/gallery/trabajo_87.png" alt="Experiencia Profesional" width="370" height="370"/></div>
+                <div class="thumbnail-classic-caption">
+                  <h5>Experiencia Profesional</h5>
+                  <p>Años de experiencia a tu servicio</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="page-footer page-footer-classic">
+        <section class="section-25 bg-black-2">
+          <div class="container">
+            <div class="row align-items-md-center row-30">
+              <div class="col-md-8 text-md-left">
+                <p class="small-xs">&copy; 2025 Luz Headlights X. Todos los derechos reservados.</p>
+              </div>
+              <div class="col-md-4 text-md-right">
+                <ul class="list-inline list-inline-lg offset-top-0">
+                  <li><a class="ioon icon-sm icon--school-bus-yellow-white fa-whatsapp" href="https://api.whatsapp.com/send?phone=13473403600"></a></li>
+                  <li><a class="ioon icon-sm icon--school-bus-yellow-white fa-tiktok" href="https://www.tiktok.com/@luzheadlightsx"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
